@@ -235,7 +235,7 @@ label[for="menu"] > span {
 	box-sizing: border-box;
 	padding: 30px;
 	margin: 10px;
-	width: 360px;
+	max-width: 360px;
 	color: #999;
 	font: 1em 'Open Sans';
 	text-align: center;
@@ -273,15 +273,15 @@ label[for="menu"] > span {
 .one-img {
 	border-radius: 50%;
 	overflow: hidden;
-	height: 200px;
-	width: 200px;
+	max-height: 200px;
+	max-width: 200px;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	box-shadow: 4px 4px 20px #222;
 }
 
 .one-img img {
-	height: 200px;
+	max-height: 200px;
 	position: relative; 
 	right: 60px;
 }
