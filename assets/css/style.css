@@ -93,7 +93,6 @@ label[for="menu"] > span {
 	-o-flex-direction: column;
 	flex-direction: column;
 	z-index: 0;
-	border-top: 4px solid #F4D03F;
 }
 
 .nav_m-item {
