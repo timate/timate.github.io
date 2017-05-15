@@ -2,7 +2,6 @@
 
 html, body {
 	height: 100%;
-	overflow: hidden; 
 }
 
 #wrapper {
@@ -14,7 +13,6 @@ html, body {
 	 -o-flex-direction: column;
 	 flex-direction: column;
 	 height: 100%;
-	 overflow: hidden;
 }
 
 .container {
@@ -187,7 +185,8 @@ label[for="menu"] > span {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	padding: 190px 0;
+	display: flex;
+	align-items: center;
 }
 
 .parallax-h1 {
