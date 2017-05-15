@@ -123,6 +123,10 @@ label[for="menu"] > span {
 	overflow: hidden;
 }
 
+.menu:checked ~ .nav_m {
+	overflow: hidden;
+}
+
 .logo a {
 	color: #03C9A9;
 	font: 2em 'Roboto';
