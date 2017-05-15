@@ -202,31 +202,22 @@ label[for="menu"] > span {
 	font: 2em 'Jura';
 }
 
-section {
-	min-height: 100px;
+.text {
+	font: 1em 'Open Sans';
+	padding: 20px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	padding: 20px;
-	margin: 10px 0;
-	font: 1em 'Open sans';
-	line-height: 20px;
 }
-
-.content-cont {
-	display: flex;
-	flex-direction: column;
-}
-
-
 
 #footer {
 	background: #2C3E50;
 	box-shadow: 0 0 10px black;
-	min-height: 200px;
+	height: 200px;
 	text-align: center;
 	color: #fff;
 	z-index: 1;
 	font: 2em 'Comfortaa';
 	line-height: 200px;
+	margin-top: 50px;
 }
