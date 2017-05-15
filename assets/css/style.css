@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Exo+2|Jura:400,600|Open+Sans|Open+Sans+Condensed:300|Roboto');
 
+html, body {
+	height: 100%;
+}
+
 #wrapper {
 	display: flex;
+	position: relative;
 	-webkit-flex-direction: column;
 	 -moz-flex-direction: column;
 	 -ms-flex-direction: column;
@@ -46,6 +51,76 @@
 	padding: 20px;
 	box-sizing: border-box;
 	flex-wrap: wrap;
+}
+
+.menu {
+	display: block;
+	width: 0;
+	height: 0;
+}
+
+label[for="menu"] {
+	position: absolute;
+	z-index: 2;
+	right: 15px;
+	top: 33px;
+	cursor: pointer;
+}
+
+label[for="menu"] > span {
+	display: block;
+	width: 30px;
+	height: 30px;
+	transform: rotate(90deg);
+	color: #03C9A9;
+	font: 3em 'Jura';
+	letter-spacing: -3px;
+}
+
+.nav_m {
+	position: absolute;
+	height: 100%;
+	background: #2C3E50;
+	right: 0;
+	z-index: 3;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	z-index: 0;
+	border-top: 4px solid #F4D03F;
+}
+
+.nav_m-item {
+	position: relative;
+	width: 200px;
+}
+
+.nav_m-item>a {
+	display: block;
+	color: #03C9A9;
+	font: 1em 'Jura';
+	font-weight: 600;
+	padding: 20px;
+	text-align: center;
+}
+
+.nav_m-item>a:hover {
+	background: rgba(255, 255, 255, .1);
+	border-left: 4px solid #03C9A9;
+}
+
+.menu:checked ~ label[for="menu"]{
+	right: 215px;
+}
+
+.menu:checked ~ #wrapper {
+	right: 200px;
 }
 
 .logo a {
@@ -97,7 +172,7 @@
 .parallax {
 	height: 500px;
 	width: 100%;
-	background: url(../img/parallax1.jpg) no-repeat fixed;
+	background: url(../img/parallax1.jpg) no-repeat 100% fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 	z-index: 0;
