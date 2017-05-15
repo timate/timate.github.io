@@ -19,14 +19,14 @@
 	height: 4px;
 	width: 100%;
 	background: repeating-linear-gradient(90deg,
-		#F22613 0, #F22613 100px,
-		#E08283 101px, #E08283 200px,
-		#8E44AD 201px, #8E44AD 300px,
-		#22A7F0 301px, #22A7F0 400px,
-		#26C281 401px, #26C281 500px,
-		#F4D03F 501px, #F4D03F 600px,
-		#F39C12 601px, #F39C12 700px,
-		#BFBFBF 701px, #BFBFBF 800px 
+		#F22613 0%, #F22613 10%,
+		#E08283 10.1%, #E08283 20%,
+		#8E44AD 20.1%, #8E44AD 30%,
+		#22A7F0 30.1%, #22A7F0 40%,
+		#26C281 40.1%, #26C281 50%,
+		#F4D03F 50.1%, #F4D03F 60%,
+		#F39C12 60.1%, #F39C12 70%,
+		#BFBFBF 70.1%, #BFBFBF 80% 
 
 		) 4em;
 }
