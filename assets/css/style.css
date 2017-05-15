@@ -120,6 +120,7 @@ label[for="menu"] > span {
 
 .menu:checked ~ #wrapper {
 	right: 200px;
+	overflow: hidden;
 }
 
 .logo a {
